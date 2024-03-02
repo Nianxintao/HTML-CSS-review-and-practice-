@@ -1,0 +1,44 @@
+    li{
+        background-color:tan
+    }
+    /* nth-child
+        2nd-child
+        1st-child
+        n is just a placeholder for number
+    */
+    li:nth-child(even){
+        background-color:darkseagreen;
+    }
+    mig{
+        height:10%;
+        width:20%;
+    }
+
+    /* every 2nd list's marker: li:nth-child(even)::marker
+    every 2nd marker on the every list li:marker:nth-child(even)
+      */
+    li:nth-child(even)::marker{
+        color:blue;
+    }
+
+
+    h2{
+        color:red;
+        background-color:darkseagreen;
+    }
+
+    #banana {
+        color:blue;
+    }
+    .coolclass{
+        color:hotpink;
+    }
+    /* in css if styling same thing the new code will over write the pre one "color: #16e7d6; will 
+       color: blue;*/
+    h1{
+        color:blue;
+        background: red;
+    }
+    h1{
+        color:#16e7d6;
+    }

@@ -4,11 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <!-- style tag or internal styling -->
+        <style>
+            h2 {
+                color: rgb(230, 23, 23)
+            }
+        </style>
+        <!-- external stylesheet , needs to exist in project as a file (create a new file name it style.css)-->
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Xintao Nian!!!</h1>
-        <h2>Week one is fantastic!!!!</h2>
-        <p>
+        <!-- this is note area it wont show in web -->
+        <h1 style="color:blue">Xintao Nian!!!</h1>
+        <!-- "style tag or internal styling" will be written over by "style="color:blueviolet"-->
+        <h2 style="color:blueviolet">Week one is fantastic!!!!
+        </h2>
+        <!-- if ther is no style="color:" it will be colored by internal style(in head area)-->
+        <h2 id="bananas">Next week is coming</h2>
+        <h2 class="coolclass">Next week is coming</h2>
+        <h2 class="coolclass">Next week is coming</h2>
+        <h2 class="coolclass">Next week is coming</h2>
+        <h2 >Next week is coming</h2>
+        <p class="coolclass">
             Lorem ipsum dolor sit amet consectetur adipisicing
             elit.<strong> A, expedita optio cumque commodi laborum nisi
            aut error dicta</strong>, <b>rem doloremque odit sapiente esse 
@@ -23,5 +40,13 @@
             dicta minus.</strong></em>
         </p>
         <img src="https://images.thedirect.com/media/article_full/disney-movies-titles.jpg" alt="This image failed to load, lol"/>
+        <ul>
+            <li>lord of rings</li>
+            <li>Dune1</li>
+            <li>Avatar</li>
+            <li>Hobbit</li>
+            <li>Mars</li>
+            <li>Star wars</li>
+        </ul>
     </body>
 </html>
